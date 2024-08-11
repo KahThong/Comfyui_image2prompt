@@ -37,6 +37,7 @@ check_and_install("git+https://github.com/deepseek-ai/DeepSeek-VL.git@86a3096",i
 # >= 4.38.2 deepseek , test ok == 4.37.1
 # >= 4.38.2 llama3
 check_and_install_version("transformers","4.38.2",up_version=False)
+check_and_install_version("simpletransformers","4.44.0",up_version=False)
 
 # llama3 4bit or 8bit
 check_and_install_version("accelerate","0.29.3")
